@@ -96,7 +96,7 @@ const SignIn = () => {
           className="subBtn"
           type="submit"
         >
-          Регистрация
+          Войти
         </button>
         <Link className="link-style" to="/sign-up">
           {" "}

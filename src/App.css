@@ -205,3 +205,75 @@
     margin-top: 10px;
     
 }
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.map_yandex{
+    padding-top:100p;
+    width: 100%;
+    height: 100%;
+}
+
+.map-container {
+  margin-top: 60px; /* Задает отступ сверху, равный высоте вашего хедера */
+  position: relative;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+  background-color: white; /* Белый фон модального окна */
+  padding: 20px;
+  border-radius: 8px;
+ text-align: center;
+
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  cursor: pointer;
+}
+
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  z-index: 1000; /* Выше, чем карта */
+}
+
+
+.darken-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Прозрачный черный цвет */
+  z-index: 999; /* Выше, чем карты */
+}
+
+.h2{
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.inputModal{
+    margin-bottom: 5%;
+    height: 10%;
+
+}
